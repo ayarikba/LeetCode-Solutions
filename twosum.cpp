@@ -21,10 +21,9 @@ public:
 
 int main()
 {
+    int i 
     auto sol = new Solution() ;
     std::vector<int> vector {3, 2, 4};
     std::cout << sol->twoSum(vector, 6)[0] << std::endl ;
     std::cout << sol->twoSum(vector, 6)[1] << std::endl ;
-
-
 }

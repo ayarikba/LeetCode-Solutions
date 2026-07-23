@@ -50,10 +50,10 @@ public:
     auto n = strs.at(shortest_index).substr(0, i);
     return n;
   };
-};
+}; 
 int main() {
   std::vector<std::string> strs{"dog", "racecar", "car"};
-
+  
   std::vector<std::string> st{"ab", "a"};
   std::vector<std::string> empty{""};
   auto sol = new Solution();
